@@ -1,0 +1,13 @@
+[project]
+name = "dsf-viewer"
+version = "0.1.0"
+description = "Streamlit wrapper around the package bada"
+readme = "README.md"
+authors = [
+    { name = "Willi Gottstein", email = "willi.gottstein@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "bada>=0.1.1",
+    "streamlit>=1.44.0",
+]
