@@ -8,7 +8,10 @@ import streamlit as st
 from session.state_manager import SessionStateManager
 from session.utils import validate_page_access
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 st.title("Plate Heatmap View")
 

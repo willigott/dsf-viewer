@@ -7,7 +7,10 @@ from session.state_manager import SessionStateManager
 from session.utils import validate_page_access
 from utils import natural_sort_wells
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 if not validate_page_access("control_analysis"):
     st.stop()
