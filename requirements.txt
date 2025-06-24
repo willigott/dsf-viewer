@@ -1,2 +1,2 @@
-"bada>=0.1.1"
-"streamlit>=1.44.0"
+bada>=0.1.1
+streamlit>=1.44.0
