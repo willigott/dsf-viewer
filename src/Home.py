@@ -2,7 +2,11 @@ import streamlit as st
 
 from session.state_manager import init_session_state
 
-st.set_page_config(page_title="DSF Analysis Tool", layout="wide")
+st.set_page_config(
+    page_title="DSF Analysis Tool",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 init_session_state()
 
