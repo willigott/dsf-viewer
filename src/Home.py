@@ -10,8 +10,8 @@ st.set_page_config(
 
 init_session_state()
 
-
 st.title("Welcome to the Differential Scanning Fluorimetry (DSF) Analysis Tool")
+
 st.markdown("""
 This application helps you analyze Differential Scanning Fluorimetry (DSF) data.
 
