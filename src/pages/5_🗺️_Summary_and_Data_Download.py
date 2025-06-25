@@ -86,9 +86,6 @@ results_df = results_df.drop(
         "y_spline",
         "full_well_data",
         "y_spline_derivative",
-        # "temp_at_min",
-        # "temp_at_max",
-        # "max_derivative_value",
     ]
 )
 
